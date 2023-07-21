@@ -1,0 +1,263 @@
+body {
+  width: 1444px;
+  height: 1440px;
+}
+header {
+  position: absolute;
+  width: 1440px;
+  height: 145px;
+
+  background: #0f8b8d;
+  border-radius: 30px 30px 0px 0px;
+}
+.header-logo {
+  position: absolute;
+  width: 335px;
+  height: 67px;
+  left: 138px;
+  top: 39px;
+}
+.header-list ul {
+  float: right;
+  margin-right: 138px;
+  margin-top: 54px;
+}
+.header-list li {
+  list-style: none;
+  float: left;
+  margin-left: 50px;
+  width: 106px;
+  height: 36px;
+  top: 54px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  color: #f9fbfe;
+}
+.main-title h1 {
+  position: absolute;
+  width: 582px;
+  height: 58px;
+  left: 429px;
+  top: 245px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #0f8b8d;
+}
+.main-title p {
+  position: absolute;
+  width: 485px;
+  height: 29px;
+  left: 478px;
+  top: 343px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #143642;
+}
+.main-contents {
+  position: absolute;
+  margin: 30px 250px;
+  width: 900px;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  top: 412px;
+}
+.content {
+  width: 216px;
+  height: 216px;
+  left: 277px;
+  top: 412px;
+  background-image: url("../Photo_Materials/Coffee_background.png");
+  border-radius: 20px;
+}
+.content img {
+  width: 186px;
+  height: 139.63px;
+  margin: 76px 15px 0 15px;
+}
+.content p {
+  text-align: center;
+}
+
+footer {
+  position: absolute;
+  width: 1440px;
+  height: 460px;
+  left: 0px;
+  top: 984px;
+
+  background: #143642;
+  border-radius: 30px;
+}
+.footer-logo {
+  position: absolute;
+  width: 335px;
+  height: 67px;
+  left: 138px;
+  top: 80px;
+}
+.mail-logo {
+  position: absolute;
+  left: 9.58%;
+  right: 87.64%;
+  top: 35%;
+  color: white;
+  background: #143642;
+}
+.phone-logo {
+  position: absolute;
+  left: 14.24%;
+  right: 83.54%;
+  top: 35%;
+  background: #143642;
+  color: white;
+}
+.products {
+  padding-top: 50px;
+}
+.products h1 {
+  position: absolute;
+  width: 97px;
+  height: 29px;
+  left: 612px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+
+  color: #ec9a29;
+}
+.product1 {
+  position: absolute;
+  width: 140px;
+  height: 29px;
+  left: 612px;
+  top: 100px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+
+  color: #f9fbfe;
+}
+.product2 {
+  position: absolute;
+  width: 125px;
+  height: 29px;
+  left: 612px;
+  top: 150px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+
+  color: #f9fbfe;
+}
+.product3 {
+  position: absolute;
+  width: 106px;
+  height: 29px;
+  left: 612px;
+  top: 200px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+
+  color: #f9fbfe;
+}
+.store h1 {
+  position: absolute;
+  width: 59px;
+  height: 29px;
+  left: 852px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+
+  color: #ec9a29;
+}
+.store1 {
+  position: absolute;
+  width: 91px;
+  height: 29px;
+  left: 852px;
+  top: 100px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+
+  color: #f9fbfe;
+}
+.contact h1 {
+  position: absolute;
+  width: 86px;
+  height: 29px;
+  left: 1043px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+
+  color: #ec9a29;
+}
+.cs {
+  position: absolute;
+  width: 187px;
+  height: 29px;
+  left: 1043px;
+  top: 100px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+
+  color: #f9fbfe;
+}
